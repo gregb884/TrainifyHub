@@ -1,0 +1,19 @@
+{
+  "createNewPlan": "Create New Plan",
+  "createPlanForSelf": "Create Plan for Yourself",
+  "createTemplate": "Create Template",
+  "createPlanForTrainee": "Create Plan for Client",
+  "name": "Name",
+  "description": "Description",
+  "traineeEmail": "Client's Email",
+  "createPlan": "Create Plan",
+  "required": "Required",
+  "invalidEmail": "Invalid Email Address",
+  "userNotExist": "User Does Not Exist",
+  "createPlanError": "Failed to Create Plan",
+  "selectPlanType": "Select Plan Type",
+  "forYourself": "For Yourself",
+  "forTrainee": "For Client",
+  "cancel": "Cancel",
+  "template": "Create Plan Template"
+}

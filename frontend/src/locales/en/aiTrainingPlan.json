@@ -1,0 +1,113 @@
+{
+  "aiPlansTitle": "AI-Generated Training Plan",
+  "mainTitle": "Your Personalized Training Plan Created by Artificial Intelligence!",
+  "start": "Start",
+  "mainTitleForm": "Fill out the form to create your training plan",
+  "form": {
+    "goal": "Your Training Goal",
+    "experience": "Your Experience",
+    "timePerWeek": "How many times per week do you want to train?",
+    "sessionDuration": "Duration of one session",
+    "equipment": "Do you want to exclude any of the following?",
+    "limitations": "Do you have any health limitations or preferences?",
+    "daysOfWeek": "On which days do you want to train?",
+    "selectStartDate": "Select the week to start your plan",
+    "startDate": "The plan will be effective from",
+    "selectPlan": "Select a previous plan for better analysis",
+    "none": "Do not add",
+    "previousOk": "I was satisfied with the exercises in my previous plan",
+    "primaryFocus": "Your main muscle group",
+    "missingStartDate": "You must select the first week from which the training plan will apply!"
+  },
+
+  "primary_Focus": "Main Focus",
+
+  "primaryFocus": {
+    "chest": "Chest",
+    "legs": "Legs",
+    "glutes": "Glutes",
+    "arms": "Arms",
+    "shoulders": "Shoulders",
+    "fullBody": "Full Body FBW",
+    "ABS": "Abs",
+    "fullBodyWorkout": "FBW"
+  },
+
+  "goals": {
+    "muscle_gain": "Muscle Gain",
+    "fat_loss": "Fat Loss",
+    "endurance": "Endurance Improvement",
+    "rehabilitation": "Rehabilitation",
+    "general_fitness": "General Fitness Improvement"
+  },
+  "experience_label": "Experience",
+  "experience": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "timesPerWeek": {
+    "2": "2 times per week",
+    "3": "3 times per week",
+    "4": "4 times per week",
+    "5": "5 or more times per week"
+  },
+  "sessionDuration": {
+    "30": "30 minutes",
+    "60": "60 minutes",
+    "90": "90 minutes"
+  },
+  "equipment": {
+    "dumbbells": "Dumbbells",
+    "barbell": "Barbell",
+    "bodyweight": "Bodyweight",
+    "machines": "Training Machines"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+
+  "your_goal": "Your Goal",
+  "session_time": "Session Duration",
+  "excluded_equipment": "Excluded Equipment",
+  "preferences": "Preferences",
+  "attached_plan": "Attached Plan",
+  "plan_range": "Your Plan Scope:",
+  "none": "None",
+  "unknown": "Unknown",
+  "creating_plan": "Creating Plan",
+  "confirm_and_create_plan": "Confirm and Generate Plan",
+  "go_to_training_plan": "Go to Training Plan",
+  "show_preliminary_plan": "Show and Adjust Created Plan",
+  "go_to_plan": "Go to Plan",
+  "set_start_data": "Set Start Date",
+  "selectWeek": "Select Start Week",
+  "plan_is_being_generated": "AI Plan Generation",
+  "repetitions": "Repetitions",
+  "series": "Sets",
+  "rest": "Rest",
+  "sec": "sec.",
+  "plan_name": "Plan Name",
+  "description": "Description",
+  "confirmOrChangeExercise": "Review your plan and see if you want to swap any exercises for alternatives",
+  "acceptPlan": "Accept and Assign Training Plan",
+  "coinsQuantity": "Number of AI Tokens",
+  "buyAiCoins": "Buy AI Tokens to Start Plan Creation",
+  "notEnoughCoins": "Not Enough AI Tokens",
+
+  "dayNr": {
+    "day1": "Day 1",
+    "day2": "Day 2",
+    "day3": "Day 3",
+    "day4": "Day 4",
+    "day5": "Day 5",
+    "day6": "Day 6",
+    "day7": "Day 7"
+  }
+}

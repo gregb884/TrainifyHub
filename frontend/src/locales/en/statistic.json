@@ -1,0 +1,19 @@
+{
+  "statistic": "Statistics",
+  "YourHighLights": "Recently Highlighted",
+  "show": "Show statistics",
+  "searchPlaceholder": "Search exercise",
+  "progress1Rm": "Progress 1RM in exercise:",
+  "progress": "Progress in exercise:",
+  "regress": "Regression in exercise:",
+  "newExercise": "New exercise:",
+  "oneRepMax": "Max for 1 rep",
+  "weight": "Weight",
+  "reps": "Reps",
+  "date": "Date",
+  "IncreasingTrendInOneRepMax": "Great job! Your results show a clear upward trend, which indicates the effectiveness of your workout program. Keep up the good work, maintaining regular training and proper recovery to sustain this progress. If you feel ready, you can try gradually increasing the load or number of reps, which will help you further develop strength. You can also introduce new training techniques like supersets or shorter rest periods to stimulate muscle growth. It’s clear you’re on the right track – we wish you continued success!",
+  "DecreasingTrendInOneRepMax": "The recent results show a downward trend in this exercise, which may suggest a need for changes in your training. To improve your results, consider extending rest time between sets or focusing on precise movement technique. This can help better engage your muscles and prevent unnecessary fatigue. If the results still don’t improve, consider switching up your training program or adding some extra recovery days before the next workout of this exercise. Insufficient rest could affect your performance and strength, so don’t hesitate to make these changes and give your body a chance to fully recover.",
+  "StableTrendInOneRepMax": "Your results show a stable level in this exercise, which suggests you’re maintaining your progress but might be missing new stimuli for further improvement. To break the plateau, try making small changes to your training routine. You could increase intensity, change the number of reps, add new supporting exercises, or modify rest time between sets. This variety can bring freshness to your workouts and help your muscles respond better to the load. Remember, stability is also a good sign – it shows you have solid foundations. Now, just add a little more intensity to achieve the next level.",
+  "NotEnoughDataToDetermineTrend": "Based on your results so far, it’s not possible to determine a clear trend in your progress. For a more precise analysis, try recording results for this exercise regularly across several training sessions. This will allow the system to better track your progress and provide valuable insights on your improvements. Consistency in training and regular measurements are key to understanding how your body responds to the load. Good luck with your training!",
+  "noStatistic": "Your statistics will appear here once you start training"
+}

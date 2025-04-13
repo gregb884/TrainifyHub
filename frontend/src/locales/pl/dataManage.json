@@ -1,0 +1,10 @@
+{
+  "dataManage": "Zarządzanie danymi",
+  "header": "Usunięcie danych lub konta",
+  "text1": "1. Usunięcie wybranych danych",
+  "text2": "Jeśli chcesz usunąć swoje dane lub określone informacje/treningi/plany/statystyki, wyślij e-mail z opisem danych, które chcesz usunąć oraz adresem e-mail użytym podczas rejestracji konta.",
+  "text3": "2. Usunięcie konta i wszystkich danych",
+  "text4": "Jeśli chcesz całkowicie usunąć swoje konto, przejdź do poniższego przycisku i potwierdź usunięcie konta.",
+  "text5": "Uwaga! Usuniętych danych nie można odzyskać.",
+  "delete": "Usuń konto"
+}

@@ -1,0 +1,161 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth
+  namespace: trainifyhub
+  labels:
+    app: auth
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+    spec:
+      containers:
+        - name: auth
+          image: gregb884/auth-service:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+
+          env:
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_HOST
+            - name: DB_NAME_AUTH
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_NAME_AUTH
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_USERNAME
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_PASSWORD
+
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_SECRET
+            - name: JWT_EXPIRATION
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_EXPIRATION
+
+            - name: GOOGLE_CLIENT_ID
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: GOOGLE_CLIENT_ID
+
+            - name: GOOGLE_CLIENT_IOS_ID
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: GOOGLE_CLIENT_IOS_ID
+
+            - name: APPLE_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: APPLE_SECRET
+
+            - name: RABBITMQ_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_HOST
+            - name: RABBITMQ_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PORT
+            - name: RABBITMQ_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_USERNAME
+            - name: RABBITMQ_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PASSWORD
+
+            - name: EUREKA_DEFAULT_ZONE
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: EUREKA_DEFAULT_ZONE
+
+            - name: MAIL_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: MAIL_HOST
+            - name: MAIL_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: MAIL_PORT
+            - name: MAIL_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: MAIL_USERNAME
+            - name: MAIL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: MAIL_PASSWORD
+            - name: MAIL_FROM
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: MAIL_FROM
+            - name: MAIL_SOCKET_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: MAIL_SOCKET_PORT
+            - name: GOOGLE_PLAY_JSON
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: GOOGLE_PLAY_JSON
+
+          resources:
+            requests:
+              memory: "1Gi"
+              cpu: "500m"
+            limits:
+              memory: "2Gi"
+              cpu: "1000m"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: auth-service
+  namespace: trainifyhub
+spec:
+  selector:
+    app: auth
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30080
+  type: NodePort

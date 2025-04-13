@@ -1,0 +1,20 @@
+{
+  "selectStartDate": "Select the first week",
+  "assignPlan": "Assign plan",
+  "cancel": "Cancel",
+  "addPlan": "Add Plan",
+  "selectTrainingDays": "Select training days",
+  "monday": "Monday",
+  "tuesday": "Tuesday",
+  "wednesday": "Wednesday",
+  "thursday": "Thursday",
+  "friday": "Friday",
+  "saturday": "Saturday",
+  "sunday": "Sunday",
+  "selectDays": "You must select exactly",
+  "assign": "Assign",
+  "planSuccess": "Plan has been successfully assigned!",
+  "workoutPlansTitle": "Pre-made Training Plans",
+  "buyAccess": "Unlock access to pre-made training plans",
+  "selectWeek": "Select week number"
+}

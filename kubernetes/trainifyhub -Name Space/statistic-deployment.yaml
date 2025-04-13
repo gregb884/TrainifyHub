@@ -1,0 +1,112 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: statistic
+  namespace: trainifyhub
+  labels:
+    app: statistic
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: statistic
+  template:
+    metadata:
+      labels:
+        app: statistic
+    spec:
+      containers:
+        - name: statistic
+          image: gregb884/statistic:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8085
+
+          env:
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_HOST
+            - name: DB_NAME_STATISTIC
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_NAME_STATISTIC
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_USERNAME
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_PASSWORD
+
+            - name: JWT_JWK_SET_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_JWK_SET_URI
+            - name: JWT_ISSUER_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_ISSUER_URI
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_SECRET
+
+            - name: RABBITMQ_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_HOST
+            - name: RABBITMQ_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PORT
+            - name: RABBITMQ_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_USERNAME
+            - name: RABBITMQ_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PASSWORD
+
+            - name: EUREKA_DEFAULT_ZONE
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: EUREKA_DEFAULT_ZONE
+
+          resources:
+            requests:
+              memory: "1Gi"
+              cpu: "500m"
+            limits:
+              memory: "2Gi"
+              cpu: "1000m"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: statistic-service
+  namespace: trainifyhub
+spec:
+  selector:
+    app: statistic
+  ports:
+    - protocol: TCP
+      port: 8085
+      targetPort: 8085
+      nodePort: 30085
+  type: NodePort

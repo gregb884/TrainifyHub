@@ -1,0 +1,18 @@
+{
+  "monday": "Monday",
+  "tuesday": "Tuesday",
+  "wednesday": "Wednesday",
+  "thursday": "Thursday",
+  "friday": "Friday",
+  "saturday": "Saturday",
+  "sunday": "Sunday",
+  "hideDetail": "Hide details",
+  "displayDetails": "Show details",
+  "series": "Series",
+  "serie": "Series",
+  "tempo": "Tempo",
+  "weight": "Weight",
+  "repetitions": "Repetitions",
+  "totalRepetitions": "Total repetitions",
+  "totalWeight": "Total weight"
+}

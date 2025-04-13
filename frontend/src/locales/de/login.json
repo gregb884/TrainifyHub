@@ -1,0 +1,20 @@
+{
+  "logIn": "Einloggen",
+  "email": "E-Mail",
+  "password": "Passwort",
+  "invalidEmail": "Ungültige E-Mail-Adresse",
+  "required": "Dieses Feld ist erforderlich",
+  "loginError": "Anmeldefehler. Bitte überprüfen Sie Ihre Anmeldedaten.",
+  "noAccount": "Haben Sie noch kein Konto?",
+  "signUp": "Registrieren",
+  "Login failed": "Anmeldung fehlgeschlagen",
+  "Invalid username, password or account not active": "Ungültige E-Mail, Passwort oder Konto nicht aktiviert",
+  "Banned Account": "Konto gesperrt",
+  "accountActivated": "Ihr Konto wurde aktiviert!",
+  "activationFailed": "Aktivierung des Kontos fehlgeschlagen.",
+  "forgotPassword": "Passwort vergessen",
+  "or": "oder",
+  "signWithGoogle": "Mit Google einloggen",
+  "signWithApple": "Mit Apple einloggen",
+  "googleAccountExist": "Du musst dich bei diesem Konto über die Option 'Mit Google anmelden' einloggen."
+}

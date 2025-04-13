@@ -1,0 +1,117 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-assist
+  namespace: trainifyhub
+  labels:
+    app: ai-assist
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ai-assist
+  template:
+    metadata:
+      labels:
+        app: ai-assist
+    spec:
+      containers:
+        - name: ai-assist
+          image: gregb884/ai-assist-service:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8086
+
+          env:
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_HOST
+            - name: DB_NAME_AI_ASSIST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_NAME_AI_ASSIST
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_USERNAME
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_PASSWORD
+
+            - name: JWT_JWK_SET_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_JWK_SET_URI
+            - name: JWT_ISSUER_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_ISSUER_URI
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_SECRET
+
+            - name: RABBITMQ_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_HOST
+            - name: RABBITMQ_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PORT
+            - name: RABBITMQ_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_USERNAME
+            - name: RABBITMQ_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PASSWORD
+
+            - name: EUREKA_DEFAULT_ZONE
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: EUREKA_DEFAULT_ZONE
+            - name: AI_OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: AI_OPENAI_API_KEY
+
+          resources:
+            requests:
+              memory: "1Gi"
+              cpu: "500m"
+            limits:
+              memory: "2Gi"
+              cpu: "1000m"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-assist-service
+  namespace: trainifyhub
+spec:
+  selector:
+    app: ai-assist
+  ports:
+    - protocol: TCP
+      port: 8086
+      targetPort: 8086
+      nodePort: 30086
+  type: NodePort

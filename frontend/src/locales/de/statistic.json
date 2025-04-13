@@ -1,0 +1,19 @@
+{
+  "statistic": "Statistiken",
+  "YourHighLights": "Kürzlich hervorgehoben",
+  "show": "Statistiken anzeigen",
+  "searchPlaceholder": "Übung suchen",
+  "progress1Rm": "Fortschritt 1RM in der Übung:",
+  "progress": "Fortschritt in der Übung:",
+  "regress": "Rückgang in der Übung:",
+  "newExercise": "Neue Übung:",
+  "oneRepMax": "Maximalgewicht für 1 Wiederholung",
+  "weight": "Gewicht",
+  "reps": "Wiederholungen",
+  "date": "Datum",
+  "IncreasingTrendInOneRepMax": "Tolle Arbeit! Deine Ergebnisse zeigen einen klaren Aufwärtstrend, was auf die Wirksamkeit deines Trainingsprogramms hinweist. Mach weiter so, indem du regelmäßiges Training und eine gute Erholung beibehältst, um diesen Fortschritt zu erhalten. Wenn du dich bereit fühlst, kannst du versuchen, das Gewicht oder die Anzahl der Wiederholungen allmählich zu erhöhen, was dir hilft, weiter an Kraft zu gewinnen. Du kannst auch neue Trainingstechniken wie Supersätze oder kürzere Pausen einführen, um das Muskelwachstum weiter zu stimulieren. Es ist klar, dass du auf dem richtigen Weg bist – wir wünschen dir weiterhin viel Erfolg!",
+  "DecreasingTrendInOneRepMax": "Die letzten Ergebnisse zeigen einen Abwärtstrend in dieser Übung, was auf einen Bedarf an Änderungen im Training hinweisen könnte. Um deine Ergebnisse zu verbessern, erwäge, die Pausenzeit zwischen den Sätzen zu verlängern oder dich auf eine präzise Bewegungstechnik zu konzentrieren. Dies kann helfen, die Muskeln besser zu aktivieren und unnötige Ermüdung zu vermeiden. Wenn die Ergebnisse immer noch nicht steigen, solltest du in Betracht ziehen, dein Trainingsprogramm zu ändern oder ein paar zusätzliche Erholungstage vor dem nächsten Training dieser Übung hinzuzufügen. Unzureichende Erholung kann deine Leistung und Kraft beeinträchtigen, also zögere nicht, diese Änderungen vorzunehmen, um deinem Körper die Chance auf vollständige Regeneration zu geben.",
+  "StableTrendInOneRepMax": "Deine Ergebnisse zeigen ein stabiles Niveau in dieser Übung, was darauf hinweist, dass du deine Fortschritte beibehältst, aber möglicherweise neue Reize für weitere Verbesserungen fehlen. Um das Plateau zu durchbrechen, versuche, kleine Änderungen in deiner Trainingsroutine vorzunehmen. Du könntest die Intensität erhöhen, die Anzahl der Wiederholungen ändern, neue unterstützende Übungen hinzufügen oder die Pausenzeit zwischen den Sätzen anpassen. Diese Abwechslung kann dein Training auffrischen und deinen Muskeln helfen, besser auf die Belastung zu reagieren. Denke daran, dass Stabilität auch ein gutes Zeichen ist – es zeigt, dass du solide Grundlagen hast. Jetzt füge einfach noch ein wenig mehr Intensität hinzu, um die nächste Stufe zu erreichen.",
+  "NotEnoughDataToDetermineTrend": "Auf Grundlage deiner bisherigen Ergebnisse lässt sich noch kein klarer Trend in deinem Fortschritt feststellen. Für eine genauere Analyse versuche, regelmäßig Ergebnisse für diese Übung über mehrere Trainingseinheiten hinweg aufzuzeichnen. Dadurch kann das System deinen Fortschritt besser verfolgen und dir wertvolle Einblicke in deine Verbesserungen geben. Konsistenz im Training und regelmäßige Messungen sind entscheidend, um zu verstehen, wie dein Körper auf die Belastung reagiert. Viel Erfolg bei deinem Training!",
+  "noStatistic": "Deine Statistiken werden hier angezeigt, sobald du mit dem Training beginnst"
+}

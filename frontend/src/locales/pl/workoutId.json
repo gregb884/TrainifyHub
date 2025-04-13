@@ -1,0 +1,22 @@
+{
+
+  "selectStartDate": "Wybierz pierwszy tydzień",
+  "assignPlan": "Przypisz plan",
+  "cancel": "Anuluj",
+  "addPlan": "Dodaj Plan",
+  "selectTrainingDays": "Wybierz dni treningowe",
+  "monday": "Poniedziałek",
+  "tuesday": "Wtorek",
+  "wednesday": "Środa",
+  "thursday": "Czwartek",
+  "friday": "Piątek",
+  "saturday": "Sobota",
+  "sunday": "Niedziela",
+  "selectDays": "Musisz wybrać dokładnie",
+  "assign": "Przypisz",
+  "planSuccess": " Plan został przypisany pomyślnie!",
+  "workoutPlansTitle": "Gotowe Plany Treningowe",
+  "buyAccess": "Odblokuj dostęp do gotowych Planów Treningowych",
+  "selectWeek": "Zaznacz numer tygodnia",
+  "renewAccess": "Zaktualizuj dane subskrypcji w sklepie aby korzystać dalej z gotowych planów"
+}

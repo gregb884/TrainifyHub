@@ -1,0 +1,128 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: profile-manager
+  namespace: trainifyhub
+  labels:
+    app: profile-manager
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: profile-manager
+  template:
+    metadata:
+      labels:
+        app: profile-manager
+    spec:
+      containers:
+        - name: profile-manager
+          image: gregb884/profile-manager:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8083
+
+          env:
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_HOST
+            - name: DB_NAME_PROFILE_MANAGER
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_NAME_PROFILE_MANAGER
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_USERNAME
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_PASSWORD
+
+            - name: JWT_JWK_SET_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_JWK_SET_URI
+            - name: JWT_ISSUER_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_ISSUER_URI
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_SECRET
+
+            - name: RABBITMQ_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_HOST
+            - name: RABBITMQ_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PORT
+            - name: RABBITMQ_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_USERNAME
+            - name: RABBITMQ_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PASSWORD
+
+            - name: EUREKA_DEFAULT_ZONE
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: EUREKA_DEFAULT_ZONE
+            - name: FILE_LOCATION
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: FILE_LOCATION
+
+          resources:
+            requests:
+              memory: "1Gi"
+              cpu: "500m"
+            limits:
+              memory: "2Gi"
+              cpu: "1000m"
+
+
+          volumeMounts:
+            - name: uploads-volume
+              mountPath: "/mnt/profilemanager/uploads"
+
+      volumes:
+              - name: uploads-volume
+                hostPath:
+                  path: "/mnt/profilemanager/uploads"
+                  type: Directory
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: profile-manager-service
+  namespace: trainifyhub
+spec:
+  selector:
+    app: profile-manager
+  ports:
+    - protocol: TCP
+      port: 8083
+      targetPort: 8083
+      nodePort: 30083
+  type: NodePort

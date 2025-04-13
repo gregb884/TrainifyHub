@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974408803836",
+    "project_id": "trainifyhub-d04b5",
+    "storage_bucket": "trainifyhub-d04b5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974408803836:android:c31970ccc7344d6d937e79",
+        "android_client_info": {
+          "package_name": "com.trainifyhub.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH9Z7iE7GFV2FDhodNER7lT1nm1N1S2zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

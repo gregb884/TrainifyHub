@@ -1,0 +1,19 @@
+{
+  "createNewPlan": "Neuen Plan erstellen",
+  "createPlanForSelf": "Plan für sich selbst erstellen",
+  "createTemplate": "Vorlage erstellen",
+  "createPlanForTrainee": "Plan für Kunden erstellen",
+  "name": "Name",
+  "description": "Beschreibung",
+  "traineeEmail": "E-Mail des Kunden",
+  "createPlan": "Plan erstellen",
+  "required": "Erforderlich",
+  "invalidEmail": "Ungültige E-Mail-Adresse",
+  "userNotExist": "Benutzer existiert nicht",
+  "createPlanError": "Planerstellung fehlgeschlagen",
+  "selectPlanType": "Plan-Typ auswählen",
+  "forYourself": "Für sich selbst",
+  "forTrainee": "Für Kunden",
+  "cancel": "Abbrechen",
+  "template": "Planvorlage erstellen"
+}

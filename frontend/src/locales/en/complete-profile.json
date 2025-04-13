@@ -1,0 +1,18 @@
+{
+  "completeProfile": "Complete your profile to continue",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "role": "Account Type",
+  "selectRole": "Select account type",
+  "trainer": "For Trainer",
+  "user": "For User",
+  "region": "Region",
+  "selectRegion": "Select Region",
+  "english": "English",
+  "polish": "Polish",
+  "germany": "German",
+  "registerEnd": "Save",
+  "required": "This field is required",
+  "Not a valid language": "No region selected",
+  "An unexpected error occurred": "An unexpected error occurred during registration"
+}

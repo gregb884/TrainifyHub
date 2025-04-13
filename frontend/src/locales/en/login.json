@@ -1,0 +1,20 @@
+{
+  "logIn": "Log In",
+  "email": "E-mail",
+  "password": "Password",
+  "invalidEmail": "Invalid email address",
+  "required": "This field is required",
+  "loginError": "Login error. Please check your login credentials.",
+  "noAccount": "Don't have an account",
+  "signUp": "Sign Up",
+  "Login failed": "Login failed",
+  "Invalid username, password or account not active": "Invalid email, password, or account not activated",
+  "Banned Account": "Account is banned",
+  "accountActivated": "Your account has been activated!",
+  "activationFailed": "Failed to activate account.",
+  "forgotPassword": "Forgot password",
+  "or": "or",
+  "signWithGoogle": "Log in with Google",
+  "signWithApple": "Log in with Apple",
+  "googleAccountExist": "You must log in to this account using the 'Log in with Google' option."
+}

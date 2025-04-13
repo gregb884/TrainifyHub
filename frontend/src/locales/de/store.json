@@ -1,0 +1,23 @@
+{
+  "store": "Shop",
+  "chooseProduct": "Wähle ein Produkt",
+  "aiTrainingPlan": "Individueller, KI-generierter Trainingsplan",
+  "trainingPlans": "Zugang zu fertigen Trainingsplänen",
+  "noProductsAvailable": "Kein Produkt im Google Play verfügbar",
+  "buyInApp": "Um Zugang zu einem individuellen KI-Trainingsplan oder fertigen Trainingsplänen zu erhalten, melde dich in der App auf einem Android- oder iOS-Gerät an.",
+  "androidBrowser": "Siehst du diesen Hinweis in der App?\nSetze Google Chrome als deinen Standardbrowser und starte die App neu.",
+  "digitalGoodsNotConnected": "Verbindung zu Google Play nicht möglich",
+  "buyFail": "Kauf fehlgeschlagen",
+  "backendAnswerFail": "Zahlung in der App konnte nicht bestätigt werden, bitte versuche es erneut",
+  "buySuccess": "✅ Kauf erfolgreich abgeschlossen!",
+  "serverDown": "❌ Server reagiert nicht, bitte versuche es erneut.",
+  "notFindToClaim": "❌ Kein Produkt zum Einlösen gefunden",
+  "claimNotDone": "❌ Kauf konnte nicht eingelöst werden.",
+  "claimPurchase": "Kauf einlösen",
+  "waitingForPayment": "Warten auf Zahlung",
+  "subscriptionSuccess": "✅ Abonnement aktiv",
+  "claimDone": "✅ Kauf erfolgreich eingelöst",
+  "claimDoneSub": "✅ Abonnement aktiv, Daten aktualisiert",
+  "claimSubscription": "Abonnement aktualisieren",
+  "subscriptionActive": "Abonnement aktiv"
+}

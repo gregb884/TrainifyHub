@@ -1,0 +1,68 @@
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcworkspace/
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+!default.mode1v3
+
+# Derived Data
+DerivedData/
+*.hmap
+*.ipa
+*.plist
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+Package.pins
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Firebase & Google Services
+GoogleService-Info.plist
+
+# Logs & Crash Reports
+*.log
+*.crash
+*.xcactivitylog
+*.xccheckout
+*.xcscmblueprint
+
+# Generated files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.perspectivev3
+*.rsync.log
+
+# Build artifacts
+*.app/
+*.dSYM/
+*.ipa
+*.swiftpm
+*.appiconset
+
+# Simulator & Local files
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+.idea/
+
+# Archive files
+*.xcarchive

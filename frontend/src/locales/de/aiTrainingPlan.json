@@ -1,0 +1,113 @@
+{
+  "aiPlansTitle": "KI-generierter Trainingsplan",
+  "mainTitle": "Dein personalisierter Trainingsplan erstellt von Künstlicher Intelligenz!",
+  "start": "Start",
+  "mainTitleForm": "Fülle das Formular aus, um deinen Trainingsplan zu erstellen",
+  "form": {
+    "goal": "Dein Trainingsziel",
+    "experience": "Deine Erfahrung",
+    "timePerWeek": "Wie oft möchtest du pro Woche trainieren?",
+    "sessionDuration": "Dauer einer Trainingseinheit",
+    "equipment": "Möchtest du eines der folgenden Geräte ausschließen?",
+    "limitations": "Hast du gesundheitliche Einschränkungen oder Vorlieben?",
+    "daysOfWeek": "An welchen Tagen möchtest du trainieren?",
+    "set_start_data": "Startdatum festlegen",
+    "selectWeek": "Startwoche auswählen",
+    "selectStartDate": "Wähle die Woche, in der du mit dem Plan beginnen möchtest",
+    "startDate": "Der Plan gilt ab",
+    "selectPlan": "Wähle einen vorherigen Plan für eine bessere Analyse",
+    "none": "Nicht hinzufügen",
+    "previousOk": "Ich war mit den Übungen in meinem vorherigen Plan zufrieden",
+    "primaryFocus": "Deine wichtigste Muskelgruppe",
+    "missingStartDate": "Du musst die erste Woche auswählen, ab der der Trainingsplan gelten soll!"
+  },
+
+  "primary_Focus": "Hauptfokus",
+
+  "primaryFocus": {
+    "chest": "Brust",
+    "legs": "Beine",
+    "glutes": "Gesäßmuskulatur",
+    "arms": "Arme",
+    "shoulders": "Schultern",
+    "fullBody": "Ganzkörpertraining (FBW)",
+    "ABS": "Bauchmuskeln",
+    "fullBodyWorkout": "FBW"
+  },
+
+  "goals": {
+    "muscle_gain": "Muskelaufbau",
+    "fat_loss": "Fettabbau",
+    "endurance": "Ausdauerverbesserung",
+    "rehabilitation": "Rehabilitation",
+    "general_fitness": "Allgemeine Fitnessverbesserung"
+  },
+  "experience_label": "Erfahrung",
+  "experience": {
+    "beginner": "Anfänger",
+    "intermediate": "Fortgeschrittener",
+    "advanced": "Experte"
+  },
+  "timesPerWeek": {
+    "2": "2 Mal pro Woche",
+    "3": "3 Mal pro Woche",
+    "4": "4 Mal pro Woche",
+    "5": "5 oder mehr Mal pro Woche"
+  },
+  "sessionDuration": {
+    "30": "30 Minuten",
+    "60": "60 Minuten",
+    "90": "90 Minuten"
+  },
+  "equipment": {
+    "dumbbells": "Kurzhanteln",
+    "barbell": "Langhantel",
+    "bodyweight": "Eigengewicht",
+    "machines": "Trainingsmaschinen"
+  },
+  "days": {
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+  },
+
+  "your_goal": "Dein Ziel",
+  "session_time": "Trainingsdauer",
+  "excluded_equipment": "Ausgeschlossene Geräte",
+  "preferences": "Präferenzen",
+  "attached_plan": "Angehängter Plan",
+  "plan_range": "Dein Trainingsumfang:",
+  "none": "Keine",
+  "unknown": "Unbekannt",
+  "creating_plan": "Plan wird erstellt",
+  "confirm_and_create_plan": "Daten bestätigen und Plan generieren",
+  "go_to_training_plan": "Zum Trainingsplan",
+  "show_preliminary_plan": "Erstellten Plan anzeigen und anpassen",
+  "go_to_plan": "Zum Plan",
+  "plan_is_being_generated": "KI-Plan wird erstellt",
+  "repetitions": "Wiederholungen",
+  "series": "Sätze",
+  "rest": "Pause",
+  "sec": "Sek.",
+  "plan_name": "Planname",
+  "description": "Beschreibung",
+  "confirmOrChangeExercise": "Überprüfe deinen Plan und entscheide, ob du Übungen durch Alternativen ersetzen möchtest",
+  "acceptPlan": "Trainingsplan akzeptieren und zuweisen",
+  "coinsQuantity": "Anzahl der KI-Tokens",
+  "buyAiCoins": "KI-Tokens kaufen, um mit der Planerstellung zu beginnen",
+  "notEnoughCoins": "Nicht genug KI-Tokens",
+
+  "dayNr": {
+    "day1": "Tag 1",
+    "day2": "Tag 2",
+    "day3": "Tag 3",
+    "day4": "Tag 4",
+    "day5": "Tag 5",
+    "day6": "Tag 6",
+    "day7": "Tag 7"
+  }
+}

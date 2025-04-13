@@ -1,0 +1,19 @@
+{
+  "statistic": "Statystyki",
+  "YourHighLights": "Ostatnio wyróżnione",
+  "show": "Pokaż statystyki",
+  "searchPlaceholder": "Wyszukaj ćwiczenie",
+  "progress1Rm": "Progres 1Rm w ćwiczeniu :",
+  "progress" : "Progres w ćwiczeniu :",
+  "regress": "Regress w ćwiczeniu :",
+  "newExercise": "Nowe ćwiczenie :",
+  "oneRepMax": "Max na 1 powtórzenie",
+  "weight": "Ciężar",
+  "reps": "Powtórzenia",
+  "date": "Data",
+  "IncreasingTrendInOneRepMax": "Świetna robota! Twoje wyniki pokazują wyraźny trend wzrostowy, co świadczy o skuteczności Twojego programu treningowego. Kontynuuj w dotychczasowym tempie, dbając o regularny trening i odpowiednią regenerację, aby utrzymać tę dynamikę progresu. Jeśli czujesz się gotowy, możesz spróbować delikatnie zwiększyć obciążenie lub liczbę powtórzeń, co pomoże Ci w dalszym rozwoju siły. Możesz także wprowadzić nowe techniki treningowe, takie jak super serie lub krótsze przerwy, aby dodatkowo pobudzić rozwój mięśni. Widać, że jesteś na dobrej drodze – trzymamy kciuki za kolejne sukcesy!",
+  "DecreasingTrendInOneRepMax": "Z ostatnich wyników wynika trend spadkowy w tym ćwiczeniu, co może sugerować potrzebę zmian w treningu. Aby poprawić wyniki, rozważ wydłużenie czasu odpoczynku między seriami lub skup się na precyzyjnej technice ruchu. Może to pomóc w lepszym zaangażowaniu mięśni i uniknięciu niepotrzebnego zmęczenia. Jeśli mimo wszystko wyniki nie rosną, warto pomyśleć o zmianie programu treningowego lub dodaniu kilku dni regeneracyjnych przed kolejnym treningiem tego ćwiczenia. Brak odpowiedniego odpoczynku może wpływać na Twoją wydolność i siłę, dlatego nie wahaj się wprowadzić tych zmian, aby dać organizmowi szansę na pełną regenerację.",
+  "StableTrendInOneRepMax": "Z analizy Twoich wyników wynika stabilny poziom w ćwiczeniu, co może sugerować, że utrzymujesz efekty, ale brakuje nowych bodźców do dalszego progresu. Aby przełamać stagnację, spróbuj wprowadzić drobne zmiany do swojej rutyny treningowej. Możesz na przykład zwiększyć intensywność, zmienić liczbę powtórzeń, dodać nowe ćwiczenia wspomagające lub zmodyfikować czas przerw między seriami. Taka różnorodność może dodać świeżości do treningu i pomóc Twoim mięśniom lepiej reagować na obciążenie. Pamiętaj, że stabilność to również pozytywny znak – pokazuje, że masz solidne fundamenty. Teraz wystarczy dodać nieco więcej intensywności, aby osiągnąć kolejne efekty.",
+  "NotEnoughDataToDetermineTrend": "Na podstawie dotychczasowych wyników nie można jeszcze określić wyraźnego trendu w Twoich postępach. Aby uzyskać bardziej precyzyjną analizę, postaraj się regularnie rejestrować wyniki tego ćwiczenia przez kilka kolejnych sesji treningowych. Dzięki temu system będzie mógł lepiej śledzić Twój progres i dostarczyć Ci cennych wskazówek na temat Twoich postępów. Pamiętaj, że konsekwencja w treningu i regularność pomiarów są kluczowe dla zrozumienia, jak Twoje ciało reaguje na obciążenie. Powodzenia w dalszych ćwiczeniach! ",
+  "noStatistic": "Tutaj pojawią się twoje statystyki gdy zaczniesz trenować"
+}

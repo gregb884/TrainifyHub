@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*.iml
+
+# IntelliJ/Android Studio
+.idea/
+*.iws
+*.ipr
+/.idea/libraries
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# OS pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Pliki generowane
+/local.properties
+/.cxx/
+captures/
+output.json
+*.log
+
+# Pliki Keystore (jeśli używasz ręcznego podpisywania)
+*.jks
+*.keystore
+keystore.properties
+
+# Cache i zależności
+/captures/
+/output.json
+/build/
+.cxx/
+.externalNativeBuild/
+
+/app/build

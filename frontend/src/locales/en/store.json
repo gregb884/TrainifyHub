@@ -1,0 +1,23 @@
+{
+  "store": "Store",
+  "chooseProduct": "Choose a product",
+  "aiTrainingPlan": "Personalized AI-generated training plan",
+  "trainingPlans": "Access to pre-made training plans",
+  "noProductsAvailable": "No product available in Google Play",
+  "buyInApp": "To purchase access to an AI-generated individual plan or pre-made training plans, log in to the app on an Android or iOS device.",
+  "androidBrowser": "Do you see this message in the app?\nSet Google Chrome as your default browser and restart the app.",
+  "digitalGoodsNotConnected": "Unable to connect to Google Play",
+  "buyFail": "Purchase failed",
+  "backendAnswerFail": "Failed to confirm payment in the app, please try again",
+  "buySuccess": "✅ Purchase completed successfully!",
+  "serverDown": "❌ Server not responding, please try again.",
+  "notFindToClaim": "❌ No product found to claim",
+  "claimNotDone": "❌ Failed to claim the purchase.",
+  "claimPurchase": "Claim your purchase",
+  "waitingForPayment": "Waiting for payment",
+  "subscriptionSuccess": "✅ Subscription active",
+  "claimDone": "✅ Purchase successfully claimed",
+  "claimDoneSub": "✅ Subscription active, data updated",
+  "claimSubscription": "Update subscription",
+  "subscriptionActive": "Subscription Active"
+}

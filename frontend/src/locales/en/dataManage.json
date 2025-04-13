@@ -1,0 +1,12 @@
+{
+
+  "dataManage": "Data management",
+  "header": "Deletion of data or account",
+  "text1": " 1. Deletion of selected data",
+  "text2": "If you want to delete your data or certain information/workouts/plans/statistics, send an email describing the data you want to delete and the email address used during account registration.",
+  "text3": "2. Deletion of the account and all data",
+  "text4": "If you want to completely delete your account, go to the button below and confirm the account deletion.",
+  "text5": "Attention! Deleted data cannot be recovered.",
+  "delete": "Delete Account"
+
+}

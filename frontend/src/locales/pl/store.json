@@ -1,0 +1,26 @@
+{
+
+  "store": "Sklep",
+  "chooseProduct": "Wybierz produkt",
+  "aiTrainingPlan": "Indywidualny plan stworzony przez AI",
+  "trainingPlans": "Dostęp do gotowych planów treningowych",
+  "noProductsAvailable": "Brak produktu w Google Play",
+  "buyInApp": "Aby wykupić dostęp do indywidualnego planu Ai lub gotowych planów treningowych zaloguj się w aplikacji na urządzeniu z systemem android lub IOS ",
+  "androidBrowser": "Widzisz ten tekst w Aplikacji ? ustaw domyślną przeglądarke na Google Chrome i zresetuj aplikacje ",
+  "digitalGoodsNotConnected": "Nie można połączyć się do Google Play",
+  "buyFail": "Zakup nie udany",
+  "backendAnswerFail": "Nie udało się potwierdzić płatnosci w aplikacji , spróbuj ponownie",
+  "buySuccess": "✅ Zakup zakończony sukcesem!",
+  "serverDown": "❌ Serwer nie odpowiada, spróbuj ponownie.",
+  "notFindToClaim": "❌ Nie znaleziono produktu do odebrania ",
+  "claimNotDone": "❌ Nie udało się odebrać zakupu.",
+  "claimPurchase": "Odbierz swój zakup",
+  "waitingForPayment": "Oczekiwanie na płatność",
+  "subscriptionSuccess": "✅ Subskrypcja aktywna ",
+  "claimDone": "✅Zakup odebrany prawidłowo",
+  "claimDoneSub": "✅Subskrypcja aktywna zaktualizowano dane",
+  "claimSubscription": "Zaktualizuj aktywną subskrypcję",
+  "notYetProductsAvailableInIos": "Produkt jeszcze nie dostępny w IOS",
+  "productNotFind": "Produkt nie znaleziony.",
+  "subscriptionActive": "Sybskrypcja Aktywna"
+}

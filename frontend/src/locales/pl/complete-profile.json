@@ -1,0 +1,18 @@
+{
+  "completeProfile": "Uzupełnij swój profil aby kontynuować",
+  "firstName": "Imię",
+  "lastName": "Nazwisko",
+  "role": "Rodzaj konta",
+  "selectRole": "Wybierz typ konta",
+  "trainer": "Dla trenera",
+  "user": "Dla użytkownika",
+  "region": "Region",
+  "selectRegion": "Wybierz region",
+  "english": "Angielski",
+  "polish": "Polski",
+  "germany": "Niemiecki",
+  "registerEnd": "Zapisz",
+  "required": "To pole jest wymagane",
+  "Not a valid language": "Nie wybrano Regionu",
+  "An unexpected error occurred": "Niespodziewany błąd podczas rejestracji"
+}

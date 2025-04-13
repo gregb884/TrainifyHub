@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/gregb884/TrainifyHub-FrontEnd.git
+[submodule "android"]
+	path = android
+	url = https://github.com/gregb884/TrainifyHubAndroid
+[submodule "TrainifyHubIOS"]
+	path = TrainifyHubIOS
+	url = https://github.com/gregb884/TrainifyHubIOS

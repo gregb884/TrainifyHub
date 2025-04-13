@@ -1,0 +1,10 @@
+{
+  "dataManage": "Datenverwaltung",
+  "header": "Löschung von Daten oder Konto",
+  "text1": "1. Löschen ausgewählter Daten",
+  "text2": "Wenn Sie Ihre Daten oder bestimmte Informationen/Workouts/Pläne/Statistiken löschen möchten, senden Sie eine E-Mail mit einer Beschreibung der zu löschenden Daten sowie der bei der Kontoerstellung verwendeten E-Mail-Adresse.",
+  "text3": "2. Löschung des Kontos und aller Daten",
+  "text4": "Wenn Sie Ihr Konto vollständig löschen möchten, klicken Sie auf die unten stehende Schaltfläche und bestätigen Sie die Kontolöschung.",
+  "text5": "Achtung! Gelöschte Daten können nicht wiederhergestellt werden.",
+  "delete": "Konto löschen"
+}

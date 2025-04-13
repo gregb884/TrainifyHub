@@ -1,0 +1,8 @@
+.idea/
+.idea/workspace.xml
+profilemanager/path/
+notification/src/main/resources/firebase.json
+.env
+.envBase64
+kubernetes/trainifyhub -Name Space/rabbitmq-deployment.yaml
+kubernetes/trainifyhub -Name Space/trainifyhub-secret.yaml

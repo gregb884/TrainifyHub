@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.use_as_origin"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.trainifyhub.app",
+      "sha256_cert_fingerprints": [
+        "11:DF:06:18:12:99:A7:34:9D:A6:D8:25:16:FD:6A:60:5F:B9:EC:5F:A6:38:A5:5D:29:60:EA:76:97:4F:DA:A7"
+      ]
+    }
+  }
+]

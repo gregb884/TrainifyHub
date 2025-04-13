@@ -1,0 +1,117 @@
+{
+
+  "aiPlansTitle": "Tworzenie planu przez AI",
+  "mainTitle": "Twój Spersonalizowany Plan Treningowy Stworzony przez Sztuczną Inteligencję!",
+  "start": "Rozpocznij",
+  "mainTitleForm": "Uzupełnij formularz, aby stworzyć plan treningowy",
+  "form": {
+    "goal": "Twój cel treningowy",
+    "experience": "Twoje doświadczenie",
+    "timePerWeek": "Ile razy w tygodniu chcesz trenować?",
+    "sessionDuration": "Czas trwania jednej sesji",
+    "equipment": "Chcesz wykluczyc któryś z poniższych  ?",
+    "set_start_data": "Ustaw datę rozpoczęcia",
+    "selectWeek": "Wybierz tydzień rozpoczęcia",
+    "limitations": "Czy masz ograniczenia zdrowotne lub preferencje?",
+    "daysOfWeek": "W jakie dni chcesz trenować?",
+    "selectStartDate": "Wybierz od ktorego tygodnia chcesz rozpocząc plan",
+    "startDate": "Plan obowiązywać będzie od",
+    "selectPlan": "Wybierz poprzedni plan dla lepszej analizy",
+    "none": "Nie dodawaj",
+    "previousOk": "Byłem zadowolony z ćwiczeń wykonywanych w poprzednim planie",
+    "primaryFocus": "Twoja najważniejsza partia mięśniowa ",
+    "missingStartDate": "Musisz wybrac pierwszy tydzien od którego będzie obowiązywał plan treningowy !"
+  },
+
+  "primary_Focus": "Głowna Partia",
+
+  "primaryFocus": {
+
+    "chest" : "Klatka Piersiowa",
+    "legs": "Nogi",
+    "glutes": "Pośladki",
+    "arms": "Ramiona",
+    "shoulders": "Barki",
+    "fullBody": "Pełny zakres FBW",
+    "ABS": "Brzuch",
+    "fullBodyWorkout": "FBW"
+
+  },
+
+  "goals": {
+    "muscle_gain": "Zwiększenie masy mięśniowej",
+    "fat_loss": "Redukcja tkanki tłuszczowej",
+    "endurance": "Poprawa wytrzymałości",
+    "rehabilitation": "Rehabilitacja",
+    "general_fitness": "Poprawa ogólnej kondycji"
+  },
+  "experience_label": "Doświadczenie",
+  "experience": {
+    "beginner": "Początkujący",
+    "intermediate": "Średnio zaawansowany",
+    "advanced": "Zaawansowany"
+  },
+  "timesPerWeek": {
+    "2": "2 razy w tygodniu",
+    "3": "3 razy w tygodniu",
+    "4": "4 razy w tygodniu",
+    "5": "5 lub więcej razy w tygodniu"
+  },
+  "sessionDuration": {
+    "30": "30 minut",
+    "60": "60 minut",
+    "90": "90 minut"
+  },
+  "equipment": {
+    "dumbbells": "Hantle",
+    "barbell": "Sztanga",
+    "bodyweight": "Własna masa ciała",
+    "machines": "Maszyny treningowe"
+  },
+  "days": {
+    "monday": "Poniedziałek",
+    "tuesday": "Wtorek",
+    "wednesday": "Środa",
+    "thursday": "Czwartek",
+    "friday": "Piątek",
+    "saturday": "Sobota",
+    "sunday": "Niedziela"
+  },
+
+  "your_goal": "Twój cel",
+  "session_time": "Czas sesji treningowej",
+  "excluded_equipment": "Wykluczone przyrządy",
+  "preferences": "Preferencje",
+  "attached_plan": "Załączony plan",
+  "plan_range": "Zakres Twojego planu:",
+  "none": "Brak",
+  "unknown": "Nieznany",
+  "creating_plan": "Tworzenie Planu",
+  "confirm_and_create_plan" : "Potwierdź dane i wygeneruj plan",
+  "go_to_training_plan" : "Idź do planu",
+  "show_preliminary_plan": "Pokaż i dostosuj utworzony plan",
+  "go_to_plan": "Przejdź do planu",
+  "plan_is_being_generated": "Tworzenie planu przez AI",
+  "repetitions": "Powtórzenia",
+  "series": "Serie",
+  "rest": "Przerwa",
+  "sec": "sek.",
+  "plan_name": "Nazwa Planu",
+  "description": "Opis",
+  "confirmOrChangeExercise": "Przejżyj plan i zobacz czy chcesz zamienić któreś ćwiczenia na alternatywne",
+  "acceptPlan": "Zaakceptuj i przypisz plan treningowy",
+  "coinsQuantity": "Ilość żetonów AI",
+  "buyAiCoins": "Kup żetony AI aby rozpocząć tworzenie planu",
+  "notEnoughCoins": "Brak Żetonu AI",
+
+  "dayNr": {
+
+    "day1": "Dzień 1",
+    "day2": "Dzień 2",
+    "day3": "Dzień 3",
+    "day4": "Dzień 4",
+    "day5": "Dzień 5",
+    "day6": "Dzień 6",
+    "day7": "Dzień 7"
+  }
+}

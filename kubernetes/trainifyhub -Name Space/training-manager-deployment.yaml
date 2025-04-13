@@ -1,0 +1,112 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: training-manager
+  namespace: trainifyhub
+  labels:
+    app: training-manager
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: training-manager
+  template:
+    metadata:
+      labels:
+        app: training-manager
+    spec:
+      containers:
+        - name: training-manager
+          image: gregb884/training-manager:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8081
+
+          env:
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_HOST
+            - name: DB_NAME_TRAINING_MANAGER
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_NAME_TRAINING_MANAGER
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_USERNAME
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: DB_PASSWORD
+
+            - name: JWT_JWK_SET_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_JWK_SET_URI
+            - name: JWT_ISSUER_URI
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_ISSUER_URI
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: JWT_SECRET
+
+            - name: RABBITMQ_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_HOST
+            - name: RABBITMQ_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PORT
+            - name: RABBITMQ_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_USERNAME
+            - name: RABBITMQ_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: RABBITMQ_PASSWORD
+
+            - name: EUREKA_DEFAULT_ZONE
+              valueFrom:
+                secretKeyRef:
+                  name: trainifyhub-secret
+                  key: EUREKA_DEFAULT_ZONE
+
+          resources:
+            requests:
+              memory: "1Gi"
+              cpu: "500m"
+            limits:
+              memory: "2Gi"
+              cpu: "1000m"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: training-manager-service
+  namespace: trainifyhub
+spec:
+  selector:
+    app: training-manager
+  ports:
+    - protocol: TCP
+      port: 8081
+      targetPort: 8081
+      nodePort: 30081
+  type: NodePort

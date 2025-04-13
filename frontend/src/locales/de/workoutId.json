@@ -1,0 +1,20 @@
+{
+  "selectStartDate": "Wählen Sie die erste Woche",
+  "assignPlan": "Plan zuweisen",
+  "cancel": "Abbrechen",
+  "addPlan": "Plan hinzufügen",
+  "selectTrainingDays": "Wählen Sie Trainingstage aus",
+  "monday": "Montag",
+  "tuesday": "Dienstag",
+  "wednesday": "Mittwoch",
+  "thursday": "Donnerstag",
+  "friday": "Freitag",
+  "saturday": "Samstag",
+  "sunday": "Sonntag",
+  "selectDays": "Sie müssen genau auswählen",
+  "assign": "Zuweisen",
+  "planSuccess": "Plan wurde erfolgreich zugewiesen!",
+  "workoutPlansTitle": "Fertige Trainingspläne",
+  "buyAccess": "Zugang zu fertigen Trainingsplänen freischalten",
+  "selectWeek": "Woche Nummer auswählen"
+}

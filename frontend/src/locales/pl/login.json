@@ -1,0 +1,21 @@
+{
+  "logIn": "Zaloguj",
+  "email": "E-mail",
+  "password": "Hasło",
+  "invalidEmail": "Nieprawidłowy adres e-mail",
+  "required": "To pole jest wymagane",
+  "loginError": "Błąd logowania. Sprawdź dane logowania.",
+  "noAccount": "Nie masz konta",
+  "signUp": "Zarejestruj się",
+  "Login failed": "Błąd logowania",
+  "Invalid username, password or account not active": "Błędny E-mail , hasło lub konto nie aktywowane",
+  "Banned Account": "Konto zablokowane",
+  "accountActivated": "Twoje konto zostało aktywowane!",
+  "activationFailed": "Nie udało się aktywować konta.",
+  "forgotPassword": "Zapomniałeś hasła",
+  "or": "lub",
+  "signWithGoogle": "Zaloguj przez Google",
+  "signWithApple": "Zaloguj przez Apple",
+  "googleAccountExist": "Na to konto musisz logowac się przez opcje 'Zaloguj przez google'"
+
+}
