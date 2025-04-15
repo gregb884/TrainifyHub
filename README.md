@@ -2,6 +2,28 @@
 
 TrainifyHub to nowoczesna aplikacja do współpracy trenerów personalnych z podopiecznymi. Umożliwia tworzenie, kupowanie i zarządzanie planami treningowymi. Projekt oparty jest na architekturze mikroserwisów uruchomionych w Kubernetes, z rozdzielonym frontendem i aplikacjami mobilnymi.
 
+
+<p align="center">
+	<a href="https://trainifyhub.com">
+  <img src="https://play-lh.googleusercontent.com/FJ19vzMCZiy6OgV4G_w7CtAiD0urEZvP36UOI11qhMlWlLpRSCNb3ab4GtqsPMwGlw=w240-h480" height="80" alt="TrainifyHub logo" />
+	</a>
+</p>
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.trainifyhub.app">
+    <img src="https://img.shields.io/badge/Android-Play%20Store-green?logo=google-play" />
+  </a>
+	<br/>
+  <a href="https://apps.apple.com/us/app/trainifyhub/id6743364032?itscg=30200&itsct=apps_box_link&mttnsubad=6743364032">
+    <img src="https://img.shields.io/badge/iOS-App%20Store-blue?logo=apple" />
+  </a>
+</p>
+
+<p align="center">
+  <b>Kompleksowa platforma fitness dla trenerów i ich podopiecznych.</b><br/>
+  Twórz plany, komunikuj się w czasie rzeczywistym i rozwijaj swoją formę z pomocą AI. 
+</p>
+
 ---
 
 ## 📌 Spis treści
