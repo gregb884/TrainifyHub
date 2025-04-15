@@ -1,6 +1,6 @@
 # 🏋️‍♂️ TrainifyHub – Kompleksowa platforma fitness
 
-TrainifyHub to nowoczesna aplikacja do współpracy trenerów personalnych z podopiecznymi. Umożliwia tworzenie, kupowanie i zarządzanie planami treningowymi. Projekt oparty jest na architekturze mikroserwisów, z rozdzielonym frontendem i aplikacjami mobilnymi.
+TrainifyHub to nowoczesna aplikacja do współpracy trenerów personalnych z podopiecznymi. Umożliwia tworzenie, kupowanie i zarządzanie planami treningowymi. Projekt oparty jest na architekturze mikroserwisów uruchomionych w Kubernetes, z rozdzielonym frontendem i aplikacjami mobilnymi.
 
 ---
 
@@ -14,7 +14,6 @@ TrainifyHub to nowoczesna aplikacja do współpracy trenerów personalnych z pod
 - [Aplikacje mobilne](#aplikacje-mobilne)
 - [Funkcjonalności](#funkcjonalności)
 - [Uruchomienie lokalne](#uruchomienie-lokalne)
-- [Kontakt](#kontakt)
 
 ---
 
@@ -31,9 +30,11 @@ Dla użytkowników jest też możliwość kupna gotowych planów treningowych or
 - Spring Boot + Spring Cloud
 - Mikroserwisy (7 aplikacji + Eureka Server)
 - RabbitMQ – komunikacja asynchroniczna
+- WebSocket – komunikacja w czasie rzeczywistym (czat, powiadomienia)
 - PostgreSQL
 - Kubernetes (orchestracja kontenerów)
 - Docker
+- NGINX – reverse proxy
 
 **Frontend:**
 - React.js
@@ -48,9 +49,11 @@ Dla użytkowników jest też możliwość kupna gotowych planów treningowych or
 
 ## ⚙️ Architektura systemu
 
-- ✅ API Gateway: centralne wejście do aplikacji
+- ✅ NGINX – reverse proxy do obsługi żądań HTTPS
 - ✅ Eureka Server: rejestracja i odnajdywanie serwisów
 - ✅ RabbitMQ: eventy między serwisami (Powiadomienia)
+- ✅ WebSocket – komunikacja w czasie rzeczywistym dla czatu i powiadomień
+- ✅ Kubernetes – zarządzanie wdrożeniami i skalowaniem aplikacji
 
 ---
 
@@ -87,7 +90,8 @@ Dla użytkowników jest też możliwość kupna gotowych planów treningowych or
 **iOS (WebView):**
 - Opakowana strona jako aplikacja iOS
 - Implementacja powiadomien oraz płatności
-- natywne logowanie przez Apple
+- Natywne logowanie przez Apple
+- Implementacja Facebook SDK do kampani reklamowych
 
 ---
 
