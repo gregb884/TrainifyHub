@@ -79,6 +79,13 @@ Dla użytkowników jest też możliwość kupna gotowych planów treningowych or
 
 ---
 
+### 🗺️ Schemat architektury
+
+![Diagram architektury](./frontend/public/TrainifyHub-2.png)
+
+
+---
+
 ## 🧩 Moduły backendowe
 
 | Nazwa modułu         | Opis                                                                 |
